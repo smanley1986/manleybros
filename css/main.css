@@ -23,7 +23,9 @@ header h1 {
 }
 nav{
 	text-align: center;
-	margin-bottom:25px;
+	margin-bottom:150px;
+	top:25px;
+	position:relative;
 }
 nav ul li{
 	display: inline;
@@ -69,6 +71,7 @@ footer ul li a.fa:hover{
 	margin-right: auto;
 	text-align: center;
 	border: 1px solid white;
+	margin-bottom: 25px;
 }
 #product_slider ul li a img{
 	height:auto;
@@ -86,8 +89,7 @@ footer ul li a.fa:hover{
 
 }
 #intro h2{
-	margin-right: auto;
-	margin-left: auto;
+	text-align: center;
 	font-size: 2em;
 	color: #ab0000;
 }	
