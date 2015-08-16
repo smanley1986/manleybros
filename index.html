@@ -6,6 +6,8 @@
 	<title>Manley Bros | Creature Creations</title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+				
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/main.js" type="text/javascript" charset="utf-8" async defer></script>
 </head>
@@ -25,14 +27,19 @@
 
 		<div id="section_wrapper">
 
+			<section id="product_slider">
+				<ul>
+					<li><a href=""><img src="img/product1.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/product2.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/product3.jpg" alt=""></a></li>
+					<li><a href=""><img src="img/product4.jpg" alt=""></a></li>
+				</ul>
+			</section>
+
 			<section id="intro">
 				<h2> Who we are</h2>
 
 				<p>We are a Mask Making Company that is Localy Owned and Operated by us two Brothers</p>
-			</section>
-
-			<section id="product_slider">
-				
 			</section>
 			
 		</div>
@@ -45,6 +52,18 @@
 				<li><a href="" class="fa fa-twitter-square"></a></li>
 				<li><a href="" class="fa fa-instagram"></a></li>
 			</ul>
-		</footer>
+	</footer>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ 	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+    <script type="text/javascript">
+	    $(document).ready(function(){
+	      $('#product_slider ul').slick(
+	        
+	      );
+	    });
+  	</script>
 </body>
 </html>
