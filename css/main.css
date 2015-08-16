@@ -54,3 +54,6 @@ footer ul li a.fa{
 	position: relative;
 	top:10px;
 }
+footer ul li a.fa:hover{
+	color: #eee;
+}
