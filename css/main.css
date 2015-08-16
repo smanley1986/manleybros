@@ -48,3 +48,7 @@ footer{
 footer ul li{
 	display: inline;
 }
+footer ul li a{
+	color: #ab0000;
+	font-size: 3em;
+}
