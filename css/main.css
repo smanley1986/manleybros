@@ -21,6 +21,7 @@ header h1 {
 }
 nav{
 	text-align: center;
+	margin-bottom:25px;
 }
 nav ul li{
 	display: inline;
