@@ -19,3 +19,9 @@ header h1 {
     position: relative;
     top: 5px;
 }
+nav{
+	text-align: center;
+}
+nav ul li{
+	display: inline;
+}
