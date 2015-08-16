@@ -37,3 +37,13 @@ nav ul li a:hover{
 	color:#eee;	
 
 }
+footer{
+	text-align: center;
+	position: relative;
+	bottom: 0; 
+	background-color: #5b6073;
+	height: 10vh;
+}
+footer ul li{
+	display: inline;
+}
