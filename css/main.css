@@ -5,3 +5,12 @@
 	width: 100vw;
 	color: #eee;
 }
+header{
+	background-color: #ab0000;
+	color: #eee;
+	height: 10vh;
+	width: 100vw;
+	padding: 5px;
+	text-align: center;
+
+}
